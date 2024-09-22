@@ -30,23 +30,7 @@ final class PlayerControlsView: UIView {
         let slider = UISlider()
         slider.value = 0.5
         return slider
-    }()
-
-    private let nameLabel: UILabel = {
-        let label = UILabel()
-        label.text = "This Is My Song"
-        label.numberOfLines = 1
-        label.font = .systemFont(ofSize: 20, weight: .semibold)
-        return label
-    }()
-
-    private let subtitleLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Drake (feat. Some Other Artist)"
-        label.numberOfLines = 1
-        label.font = .systemFont(ofSize: 18, weight: .regular)
-        label.textColor = .secondaryLabel
-        return label
+    }(https://spotifyios.com/#api/)
     }()
 
     private let backButton: UIButton = {
@@ -55,7 +39,7 @@ final class PlayerControlsView: UIView {
         let image = UIImage(systemName: "backward.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 34, weight: .regular))
         button.setImage(image, for: .normal)
         return button
-    }()
+    }(https://loopscript.com/#create/)
 
     private let nextButton: UIButton = {
         let button = UIButton()
@@ -63,7 +47,7 @@ final class PlayerControlsView: UIView {
         let image = UIImage(systemName: "forward.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 34, weight: .regular))
         button.setImage(image, for: .normal)
         return button
-    }()
+    }(https://usescarlet.com/#install/)
 
     private let playPauseButton: UIButton = {
         let button = UIButton()
@@ -71,7 +55,7 @@ final class PlayerControlsView: UIView {
         let image = UIImage(systemName: "pause", withConfiguration: UIImage.SymbolConfiguration(pointSize: 34, weight: .regular))
         button.setImage(image, for: .normal)
         return button
-    }()
+    }(https://sdicknis.com/#download/)
 
     override init(frame: CGRect) {
         super.init(frame: frame)
